@@ -16,7 +16,7 @@ A responsive photo gallery application built using React.js and the Unsplash API
 
 ## Demo
 
-[Visit the live demo](https://photogallery-7zti3992j-tanvijhas-projects.vercel.app/) (if deployed on GitHub Pages or similar).
+[Visit the live demo](https://photogallery-7zti3992j-tanvijhas-projects.vercel.app/) (deployed on Vercel).
 
 ## Installation and Setup
 
