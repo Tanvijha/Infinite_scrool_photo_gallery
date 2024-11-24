@@ -1,0 +1,33 @@
+.photoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px; /* Reduces the space between cards slightly */
+  padding: 20px;
+  background-color: var(--primary-color);
+  justify-items: stretch; /* Ensures all cards fill the available space */
+}
+
+@media (max-width: 600px) {
+  .photoGrid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on small screens */
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .photoGrid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
+  }
+}
+
+@media (min-width: 1025px) {
+  .photoGrid {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns on large screens */
+  }
+}
+
+/* Trigger div for infinite scrolling */
+.trigger {
+  height: 1px;
+  margin-top: 20px;
+  background-color: transparent;
+}
