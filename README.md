@@ -58,16 +58,27 @@ A responsive photo gallery application built using React.js and the Unsplash API
 ```
 src/
 ├── components/
+│   ├── PhotoCard/                  // Main component rendering the photo gallery
+│   │   ├── PhotoCard.js
+│   │   └── PhotoCard.module.css
 │   ├── PhotoGrid/
-│   │   ├── PhotoGrid.js        // Main component rendering the photo gallery
-│   │   ├── hooks/
-│   │   │   ├── usePhotoLoader.js // Custom hook for loading photos
-│   └── ...
+│   │   ├── PhotoGrid.js
+│   │   ├── PhotoGrid.module.css
+│   │   └── hooks/
+│   │       └── usePhotoLoader.js   // Custom hook for loading photos
+│   ├── Spinner/
+│   │   ├── Spinner.js
+│   │   └── Spinner.module.css
 ├── services/
-│   ├── unsplashService.js      // Handles API requests to Unsplash
-├── App.js                      // Root component
-├── index.js                    // Application entry point
-└── ...
+│   └── unsplashService.js          // Handles API requests to Unsplash
+├── styles/
+│   ├── global.css
+│   └── variables.css
+├── utils/
+│   └── errorHandler.js
+├── App.js                          // Root component
+├── index.js                        // Application entry point
+└── .env
 ```
 
 ## Technologies Used
