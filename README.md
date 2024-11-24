@@ -16,17 +16,17 @@ A responsive photo gallery application built using React.js and the Unsplash API
 
 ## Demo
 
-[Visit the live demo](https://tanvijha.github.io/Wellfound_infinite_scrool_photo_gallery) (if deployed on GitHub Pages or similar).
+[Visit the live demo](https://github.com/Tanvijha/Infinite_scrool_photo_gallery.git) (if deployed on GitHub Pages or similar).
 
 ## Installation and Setup
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Tanvijha/Wellfound_infinite_scrool_photo_gallery.git
+   git clone https://github.com/Tanvijha/Infinite_scrool_photo_gallery.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Wellfound_infinite_scrool_photo_gallery
+   cd Infinite_scrool_photo_gallery
    ```
 3. Install dependencies:
    ```bash
