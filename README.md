@@ -83,7 +83,7 @@ src/
 
 ## Technologies Used
 
-- **Frontend:** React.js, CSS (or a framework like Bootstrap 5)
+- **Frontend:** React.js, CSS
 - **API:** Unsplash API
 - **Tooling:** Webpack, ESLint, Prettier
 
